@@ -14,7 +14,7 @@ Outro ponto importante: no script `instalar-docker-master.sh`, o token gerado pe
 
 ## Arquivos:
 
-1. `Vagrantfile:`
+1. Vagrantfile:
    ```bash
       master = {
       "master" => {"memory" => "1024", "cpu" => "1", "image" => "bento/ubuntu-22.04", "ip" => "192.168.0.20"}
@@ -64,7 +64,7 @@ Outro ponto importante: no script `instalar-docker-master.sh`, o token gerado pe
     end
    ```
 
-2. Scrip `instalar-docker-master.sh`
+2. Script `instalar-docker-master.sh`
    ```bash
       #!/bin/bash
 
